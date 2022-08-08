@@ -23,11 +23,12 @@
 }
 .nav__list li:hover .nav__link {
   color: var(--green-1);
+  border-bottom: 5px solid var(--green-1);
 }
 .logo {
-  width: 10rem;
-  border: 3px solid var(--green-1);
-  }
+  width: 20rem;
+  /* border: 3px solid var(--green-1); */
+}
 
 @media only screen and (max-width: 768px) {
   .nav {
